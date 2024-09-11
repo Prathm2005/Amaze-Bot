@@ -204,18 +204,18 @@
     background: rgba(255, 255, 255, 0.8);
     z-index: 999;
     opacity: 0;
-    transform: scale(0.8);
+    transform: translateY(-100%); 
     transition: opacity 1s ease-out, transform 1s ease-out;
   }
   
   .intro.show {
     opacity: 1;
-    transform: scale(1);
+    transform: translateY(0);
   }
   
   .intro.hide {
     opacity: 0;
-    transform: scale(0.8);
+    transform: translateY(-100%); 
   }
   
   .intro img {
@@ -228,6 +228,5 @@
   .intro p {
     font-size: 1.5em;
     font-weight: bold;
-    color: #333;
-  }
+   
   
